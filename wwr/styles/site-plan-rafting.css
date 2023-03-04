@@ -1,52 +1,49 @@
-@import url('https://fonts.google.com/specimen/Roboto');
-@import url('https://fonts.google.com/specimen/Open+Sans');
-:root {
-    --primary-color: #FF206E;
-    --secondary-color: #41EAD4;
-    --accent1-color: #FBFF12;
-    --accent2-color: #FFFFFF;
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+:root{
+  --primary-color: #FF206E;
+  --secondary-color: #41EAD4;
+  --accent1-color: #FBFF12;
+  --accent2-color: #FFFFFF;
   
-    --heading-font: '______', Roboto;
-    --paragraph-font: '______', Open+Sans;
+  --heading-font: '______', Roboto;
+  --paragraph-font: '______', Open Sans;
   
-    --nav-background-color: #FFFFFF;
-    --nav-link-color: #FF206E;
-    --nav-hover-link-color: #41EAD4;
-    --nav-hover-background-color: #FFFFFF;
-  }
-  body {
-    max-width: 960px;
-    padding: 20px;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-  }
-  header {
-    padding: 20px;
-    background-color: var(--accent1-color);
-  }
-  p {
-    padding: 25px;
-  }
-  nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-  }
-  
-  nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-  }
-  
-  nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-  }
-  
-  nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-  }
+  --nav-background-color: #FFFFFF;
+  --nav-link-color: #FF206E;
+  --nav-hover-link-color: #41EAD4;
+  --nav-hover-background-color: #FFFFFF;
+}
+body{
+   max-width: 960px;
+   padding: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+header{
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+p{
+  padding: 25px;
+}
+nav{
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+nav a{
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+} 
+nav a:link, nav a:visited{
+  color: var(--nav-link-color);
+}
+nav a:hover{
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
