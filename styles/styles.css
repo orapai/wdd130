@@ -22,13 +22,15 @@ main img{
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
 }
 p{
-    padding: 0;
+    padding: 2rem;
 }
 aside{
     width: 20em;
     text-align: center;
+    position: relative;
 }
 aside img{
     width: 200px;
@@ -48,5 +50,11 @@ footer {
     color: #333;
 }
 aside h2 {
-    position: relative;
+    color: rgb(251, 245, 245);
+    position: absolute;
+    top: 30px;
+    left: 135px;
+}
+.indent{
+    padding-left: 2rem;
 }
