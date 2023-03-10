@@ -16,6 +16,7 @@ h1{
     color: rgb(10, 62, 105);
 }
 main img{
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -45,13 +46,6 @@ footer {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-}
-main img {
-    float: right;
-    margin: 0;
-    background-color: #eee;
-    color: #333;
-    width: 20%;
 }
 aside h2 {
     position: relative;
