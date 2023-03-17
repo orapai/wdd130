@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+:root{
+    --primary-color: #FF206E;
+    --secondary-color: #41EAD4;
+    --accent1-color: #FBFF12;
+    --accent2-color: #FFFFFF;
+    
+    --heading-font: '______', Roboto;
+    --paragraph-font: '______', Open Sans;
+    
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #FF206E;
+    --nav-hover-link-color: #41EAD4;
+    --nav-hover-background-color: #FFFFFF;
+}
+body{
+    max-width: 960px;
+    padding: 20px;
+}
+ h1, h2, h3, h4, h5, h6{
+   font-family: var(--heading-font);
+   color: var(--primary-color);
+}
+header{
+   padding: 20px;
+   background-color: var(--accent2-color);
+}
+p{
+   padding: 25px;
+}
+nav{
+   background-color: var(--nav-background-color);
+   font-size: 1.2rem;
+   display: flex;
+}
+nav a{
+   display: block;
+   color: var(--nav-link-color);
+   text-decoration: none;
+   padding: 1rem;
+} 
+nav a:link, nav a:visited{
+   color: var(--nav-link-color);
+}
+nav a:hover{
+   color: var(--nav-hover-link-color);
+   background-color: var(--nav-hover-background-color);
+}
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+} 
+.hero{
+    margin: 9px auto;
+	position: relative;
+}
+.hero h1{
+    position: absolute;
+	top:10px;
+    width: 100%;
+    margin: 0;
+    border: 1px solid rgba(0,0,0,.2);
+    background-color: #1b0b0b4f;
+    color: white;
+	box-shadow: 0 0 30px #917e7e;
+	opacity: 1;
+    text-align: center;
+}
+.hero article{
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    width: 85%;
+    margin:0;
+    border: 1px solid rgba(233, 249, 13, 0.159);
+    background-color:#9a35356c;
+    color: white;
+	box-shadow: 0 0 30px #5e5d5d;
+    text-align: center;
+}
+.hero article img{
+    float: right;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 30px gray;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
