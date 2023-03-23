@@ -39,7 +39,7 @@ nav a{
    color: var(--nav-link-color);
    text-decoration: none;
    padding: 1rem;
-} 
+}
 nav a:link, nav a:visited{
    color: var(--nav-link-color);
 }
@@ -47,14 +47,14 @@ nav a:hover{
    color: var(--nav-hover-link-color);
    background-color: var(--nav-hover-background-color);
 }
-footer {
-    margin-top: 1em;
-    border-top: 1px solid #000;
-    text-align: center;
-} 
 .hero{
+    display: grid;
+    gap: 25px;
     margin: 9px auto;
 	position: relative;
+}
+.herogrid{
+    display: grid;
 }
 .hero h1{
     position: absolute;
@@ -90,4 +90,76 @@ footer {
     display: block;
     width: 100%;
     height: auto;
+}
+.hero section{
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.historygrid{
+    display: grid;
+    justify-content: space-around;
+}
+.history{
+    display: flex;
+    grid-template-columns: 2.5fr 1fr 2.5fr;
+    justify-content: space-around;
+}
+.history img{
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 30px gray;
+}
+.adventuregrid{
+    display: grid;
+    justify-content: space-around;
+}
+.adventuregrid div{
+    display: flex;
+}
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+figure img{
+    max-width: 220px;
+    max-height: 150px;
+}
+figcaption {
+    background-color: white;
+    color: solid black;
+
+    padding: 3px;
+    text-align: center;
+}
+header, .hero, footer{
+    margin: 0 auto;
+}
+.headergrid{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+.reference{
+    display: flex;
+    align-self: center;
+}
+.footergrid{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+.footergrid p{
+    justify-self: flex-end;
+}
+.sociallinks{
+    display: flex;
+    justify-self: flex-end;
+    align-items: flex-end;
+    align-items: center;
+}
+.sociallinks img{
+    width: 25px;
 }
