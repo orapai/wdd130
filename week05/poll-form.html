@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Your Name | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item  column1">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item  column2">
+                    <label for="email">Email:</label>
+                    <input type="email" id="usermail" name="usermail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column3">
+                    <label for="browser-select">What is your favorite internet browser?</label>
+                    <select name="browser-select" id="browser-select">
+                        <option value="chrome">Chrome</option>
+                        <option value="edge">Edge</option>
+                        <option value="safari">Safari</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="opera">Opera</option>
+                        <option value="internet-explorer">Interne Explorer</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-item column4">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div class="form-item column5">
+                    <label for="place-lived">List the places you have lived:</label>
+                </div>
+                    <textarea id="place-lived" name="place-lived" 
+                    rows="4" cols="50" placeholder="Bohol Philippines, Cebu Philippines, Tokyo Japan"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+          </form>
+    </main>
+    <footer>
+      <p>©2023 | HTML Form - User Poll Activity | Ivy Orapa</p>
+    </footer>
+</body>
+</html>
