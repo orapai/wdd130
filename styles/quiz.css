@@ -4,7 +4,7 @@
 
 }
 body {
-    font: Georgia;
+    font-family: Merriweather, Georgia, serif;
     font-size: 1.2em;
     color: #333;
     background: #fff;
@@ -30,7 +30,7 @@ fieldset {
     border-radius: 1rem;
 }
 label, input, button, select, textarea {
-    font: Roboto;
+    font-family: Roboto, Arial, sans-serif;
 }
 label {
     text-align: right;
