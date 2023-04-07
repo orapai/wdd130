@@ -218,3 +218,52 @@ button{
 button:hover {
     background-color: darkgreen;
 }
+.tripsgrid{
+    display: grid;
+    justify-items: center;
+}
+.trips{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+.table-trips{
+    display: grid;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2rem;
+}
+.trip1{
+    display: grid;
+    padding: 2rem;
+}
+.trip2{
+    display: grid;
+    padding: 2rem;
+}
+.trip3{
+    display: grid;
+    padding: 2rem;
+}
+.button-wrapper {
+    display: block;
+    text-align:center;
+    padding: 2.5rem;
+}
+.button {
+    margin: 10px 5px 15px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .45rem;
+    font-size: 1rem;
+}
+.book-now {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.book-now:hover {
+    background-color: darkgreen;
+}
