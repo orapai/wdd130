@@ -209,7 +209,7 @@ header, .hero, footer{
 button{
     margin: 10px 5px 15px;
     background-color: var(--primary-color);
-    color: #fff;
+    color: black;
     border: none;
     border-radius: .5rem;
     padding: .45rem;
@@ -254,7 +254,7 @@ button:hover {
 .button {
     margin: 10px 5px 15px;
     background-color: var(--primary-color);
-    color: #fff;
+    color: black;
     border: none;
     border-radius: .5rem;
     padding: .45rem;
@@ -262,7 +262,7 @@ button:hover {
 }
 .book-now {
     background-color: var(--primary-color);
-    color: #fff;
+    color: black;
 }
 .book-now:hover {
     background-color: darkgreen;
